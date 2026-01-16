@@ -1,25 +1,26 @@
 {
-  "@context": [
-    "https://www.w3.org/ns/did/v1",
-    "https://w3id.org/security/suites/jws-2020/v1"
-  ],
-  "id": "did:web:bongti1.github.io:.well-known:",
-  "verificationMethod": [
-    {
-      "id": "did:web:bongti1.github.io:.well-known:#owner",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:bongti1.github.io:.well-known:",
-      "publicKeyJwk": {
-        "kty": "OKP",
-        "crv": "Ed25519",
-        "x": "FR3Tl1QGL3TNjrbMlcZFIcnj5dXxQDZLVjU8PrP61_Q"
-      }
-    }
-  ],
-  "authentication": [
-    "did:web:bongti1.github.io:.well-known:#owner"
-  ],
-  "assertionMethod": [
-    "did:web:bongti1.github.io:.well-known:#owner"
-  ]
+    "@context": [
+        "https://www.w3.org/ns/did/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "id": "did:web:bongti1.github.io:.well-known:",
+    "verificationMethod": [
+        {
+            "id": "did:web:bongti1.github.io:.well-known:#owner",
+            "type": "JsonWebKey2020",
+            "controller": "did:web:bongti1.github.io:.well-known:",
+            "publicKeyJwk": {
+                "kty": "EC",
+                "crv": "secp256k1",
+                "x": "ed00f579e1a37c9a1c5a4bf35c77df0966cb9484d7aa706c69f3815e16477b99",
+                "y": "efd46f8ceda9dc2e22a781c197755a50bd4766e0216e98619f2321bb9bcfc972"
+            }
+        }
+    ],
+    "authentication": [
+        "did:web:bongti1.github.io:.well-known:#owner"
+    ],
+    "assertionMethod": [
+        "did:web:bongti1.github.io:.well-known:#owner"
+    ]
 }
