@@ -3,24 +3,27 @@
         "https://www.w3.org/ns/did/v1",
         "https://w3id.org/security/suites/jws-2020/v1"
     ],
-    "id": "did:web:bongti1.github.io",
-    "verificationMethod": [
-        {
-            "id": "did:web:bongti1.github.io#owner",
-            "type": "JsonWebKey2020",
-            "controller": "did:web:bongti1.github.io",
-            "publicKeyJwk": {
-                "kty": "EC",
-                "crv": "secp256k1",
-                "x": "OHYpBriXvI5cepqvnh9ezjZy3T2PDjKKgta0xDszZPA=",
-                "y": "YEOjXf4F+eW89vIaLr9pYXJTg5SuTb0sg2vuUDm0GXo="
-            }
-        }
-    ],
-    "authentication": [
-        "did:web:bongti1.github.io#owner"
-    ],
-    "assertionMethod": [
-        "did:web:bongti1.github.io#owner"
-    ]
+            "did": "did:web:bongti1.github.io:heanmengfong",
+            "provider": "did:web",
+            "alias": "bongti1.github.io:heanmengfong",
+            "controllerKeyId": "04bf4729a83959932991b59532bf79a7deced48db0dde04d23ab7348e417e92a52717bd1d74498b100d1d0befc957c6117e863628b718af9260523525cfabb6f78",
+            "keys": [
+                {
+                    "kid": "04bf4729a83959932991b59532bf79a7deced48db0dde04d23ab7348e417e92a52717bd1d74498b100d1d0befc957c6117e863628b718af9260523525cfabb6f78",
+                    "kms": "local",
+                    "type": "Secp256k1",
+                    "publicKeyHex": "04bf4729a83959932991b59532bf79a7deced48db0dde04d23ab7348e417e92a52717bd1d74498b100d1d0befc957c6117e863628b718af9260523525cfabb6f78",
+                    "meta": {
+                        "algorithms": [
+                            "ES256K",
+                            "ES256K-R",
+                            "eth_signTransaction",
+                            "eth_signTypedData",
+                            "eth_signMessage",
+                            "eth_rawSign"
+                        ]
+                    }
+                }
+            ],
+            "services": []
 }
