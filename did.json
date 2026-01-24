@@ -3,7 +3,7 @@
         "https://www.w3.org/ns/did/v1",
         "https://w3id.org/security/suites/jws-2020/v1"
     ],
-   "did": "did:web:bongti1.github.io:heanmengfong",
+   "id": "did:web:bongti1.github.io:heanmengfong",
     "verificationMethod": [
         {
             "id": "did:web:bongti1.github.io:heanmengfong",
@@ -23,6 +23,4 @@
     "assertionMethod": [
         "did:web:bongti1.github.io:heanmengfong"
     ]
-     "provider": "did:web",
-    "alias": "heanmengfong"
 }
