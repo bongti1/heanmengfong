@@ -3,6 +3,7 @@
         "https://www.w3.org/ns/did/v1",
         "https://w3id.org/security/suites/jws-2020/v1"
     ],
+    "id": "did:web:bongti1.github.io:heanmengfong",
    "did": "did:web:bongti1.github.io:heanmengfong",
     "controllerKeyId": "0493eb7f93237cdd72c40e235a1e8b79d2b46d7a613dc31009c6a3ba0f8e0d1fdda0334255e45995370ead8cc6db74a3ca3a6cf919d9a82e6ae0e251730439015f",
     "keys": [
