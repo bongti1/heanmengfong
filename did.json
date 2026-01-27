@@ -1,19 +1,18 @@
-{
+ {
     "@context": [
         "https://www.w3.org/ns/did/v1",
         "https://w3id.org/security/suites/jws-2020/v1"
     ],
-   "id": "did:web:bongti1.github.io:heanmengfong",
+    "id": "did:web:bongti1.github.io:heanmengfong",
     "verificationMethod": [
         {
             "id": "did:web:bongti1.github.io:heanmengfong",
             "type": "JsonWebKey2020",
             "controller": "did:web:bongti1.github.io:heanmengfong",
             "publicKeyJwk": {
-                "kty": "EC",
-                "crv": "secp256k1",
-                "x": "CZBWhc+hApv+554A+p5eXlv9bTOhrsVWfVh92xd7blE=",
-                "y": "b1ULx5rhXccy7NQw2NhDtJSTOd9lMfPEYArhVAxgPjM="
+                "kty": "OKP",
+                "crv": "ed25519",
+                "x": "e506752fa80cd881349c83374b40b3fe058f8cdcb68bf81e14a2ae32f6a0ad56"
             }
         }
     ],
