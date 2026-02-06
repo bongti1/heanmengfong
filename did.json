@@ -1,5 +1,4 @@
 {
-    "issuer": {
         "alias": "heanmengfong",
         "id": "did:web:bongti1.github.io:heanmengfong",
         "@context": [
@@ -25,4 +24,3 @@
             "did:web:bongti1.github.io:heanmengfong"
         ]
     }
-}
