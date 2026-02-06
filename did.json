@@ -1,25 +1,28 @@
- {
-    "@context": [
-        "https://www.w3.org/ns/did/v1",
-        "https://w3id.org/security/suites/jws-2020/v1"
-    ],
-    "id": "did:web:bongti1.github.io:heanmengfong",
-    "verificationMethod": [
-        {
-            "id": "did:web:bongti1.github.io:heanmengfong",
-            "type": "JsonWebKey2020",
-            "controller": "did:web:bongti1.github.io:heanmengfong",
-            "publicKeyJwk": {
-                "kty": "OKP",
-                "crv": "ed25519",
-                "x": "5eae8b79d5a97650a9a1d0e0774b0426b4ef4da395ce71f9ac460e30379b233b"
+{
+    "issuer": {
+        "alias": "heanmengfong",
+        "id": "did:web:bongti1.github.io:heanmengfong",
+        "@context": [
+            "https://www.w3.org/ns/did/v1",
+            "https://w3id.org/security/suites/jws-2020/v1"
+        ],
+        "verificationMethod": [
+            {
+                "id": "did:web:bongti1.github.io:heanmengfong",
+                "type": "JsonWebKey2020",
+                "controller": "did:web:bongti1.github.io:heanmengfong",
+                "publicKeyJwk": {
+                    "kty": "OKP",
+                    "crv": "ed25519",
+                    "x": "9a02a219aaf25111324c412ff99e5abdf387731171b31831174bb399403a30a0"
+                }
             }
-        }
-    ],
-    "authentication": [
-        "did:web:bongti1.github.io:heanmengfong"
-    ],
-    "assertionMethod": [
-        "did:web:bongti1.github.io:heanmengfong"
-    ]
+        ],
+        "authentication": [
+            "did:web:bongti1.github.io:heanmengfong"
+        ],
+        "assertionMethod": [
+            "did:web:bongti1.github.io:heanmengfong"
+        ]
+    }
 }
